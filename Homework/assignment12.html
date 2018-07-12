@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    /* For Safari 3.1 to 6.0 */
+    -webkit-transition-property: width;
+    -webkit-transition-duration: 2s;
+    -webkit-{transition-timing-function: ease-in-out;}
+    -webkit-transition-delay: .5s;
+    /* Standard syntax */
+    transition-property: width;
+    transition-duration: 2s;
+    {transition-timing-function: ease-in-out;}
+    transition-delay: .5s;
+}
+
+div:hover {
+    width: 300px;
+}
+</style>
+</head>
+<body>
+
+<div></div>
+<p>Hover over the div element above.</p>
+
+</body>
+</html>
